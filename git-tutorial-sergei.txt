@@ -1,2 +1,11 @@
->git init
->
+#http://www.codeschool.com/courses/try-git	//finised course1
+#http://try.github.io/wrap_up			//for any continous
+>git init			//create git directory
+>git status			//get info commited files
+>git add			//adding files
+>git commit -m "Megjegyzes..."	//commit files with comment
+>git log			//infos about commits
+>git remote add origin https://github.com/2esSergei/Git_Java_GetStart.git //remote repositories ; adress is this repos real adress
+>git push -u origin master	//push to GitHub ; '-u' : remember the options (for only push) ; need autentication after command
+>git diff 			//show the changes in file-contains
+
