@@ -1,0 +1,41 @@
+1. A parancssori parameterek a sik pontjait irjak le.
+Add meg, melyik van legtavolabb az origotol.
+
+    1.b. Add meg, hogy melyik pont van legkozelebb a legelso ponthoz.
+         (Sajat maga kivetelevel, termeszetesen. Legalabb ket pontunk van.)
+
+2. Írd ki a parancssori parametereket egy sorban ugy,
+hogy a parameterekben az egymas utani 'a' betuket egyetlen 'a' beture csereled.
+- regularis kifejezes hasznalataval
+- regkif nelkul
+
+3. A parancssori parameterek emberek neveit tartalmazzak (egy csaladnev + egy utonev).
+Írd ki az emberek neveit csaladnev szerint csoportositva.
+
+4. Írd ki a Pascal-haromszog elso n sorat.
+Az n szam parancssori parameter.
+
+5. Az elso ket parameter, n es m, egy tabla mereteit leiro ket egesz szam.
+A tovabbi parameterparok a tablara leadott lovesek koordinatai.
+Rajzold ki a tablat ugy, hogy 'X' jeloli a talalatokat, '.' pedig a tobbi mezot.
+
+6. Az elso parancssori parameter egy szoveg,
+a tobbi parameterpar pedig egy-egy karaktert tartalmaz.
+Csereld le a szovegben a parok elso feleben szereplo karaktereket a masodikakra.
+
+7. Egy egyenes kieseses tornat szimulalunk.
+A parancssori parameterek a kovetkezokeppen neznek ki.
+Az elso parameter a jatekosok szama (n), ez ketto valamelyik hatvanya.
+A kovetkezo n parameter a jatekosok neveit irja le.
+Az ezt koveto (n-1) parameter '1' vagy '2', azt adja meg, hogy melyik jatekos gyoz.
+Pelda: ha a bemenet 8 J1 J2 J3 J4 J5 J6 J7 J8 1 1 1 2 1 2 2
+akkor a kimenet alakja az alabbi legyen:
+
+J1 J2 J2 J7
+J2
+J3 J4
+J4
+J5 J6 J7
+J6
+J7 J7
+J8

@@ -1,0 +1,22 @@
+1. Keszits "Hello vilag" programot.
+2. Ird ki a parancssori parameterek szamat.
+3. Ird ki a parancssori parametereket
+    - sorban
+    - sorszamozva
+    - forditott sorrendben
+    - csak a hosszaikat
+    - az osszeguket (tfh mind szam)
+    - a parosakat
+    - sorrendben (tfh mind szoveg)
+    - sorrendben (tfh mind szam)
+    - azokat, amelyikekbol tobb is talalhato
+4. Ird ki a Fibonacci-sorozat elso n elemet.
+   Az n parametert a parancssorbol olvasd ki.
+5. Add meg egy parancssorbol kapott szam osszes osztojat.
+6. Vonj negyzetgyokot egy parancssorbol kapott szambol.
+    - Newton-iteracioval is
+7. A parancssori parameterek lengyel formaban adott kifejezest irnak le.
+   A kifejezesben a negy alapmuvelet szerepelhet. Szamitsd ki az eredmenyt.
+
+    Pl. 1 2 3 * + eredmenye (3 * 2) + 1, azaz 7
+
