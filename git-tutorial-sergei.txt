@@ -9,3 +9,5 @@
 >git push -u origin master	//push to GitHub ; '-u' : remember the options (for only push) ; need autentication after command
 >git diff 			//show the changes in file-contains
 
+>git clone <URL>		//get an exiting repo from web
+#http://git-scm.com/		//documentation and tutorials
