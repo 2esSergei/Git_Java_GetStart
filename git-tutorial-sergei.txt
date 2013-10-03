@@ -10,4 +10,5 @@
 >git diff 			//show the changes in file-contains
 
 >git clone <URL>		//get an exiting repo from web
+>git commit -am "Megjegyzes..."	//commit with comment (it isnt allow other way) then push
 #http://git-scm.com/		//documentation and tutorials
