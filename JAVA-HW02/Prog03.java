@@ -23,7 +23,26 @@ public class Prog03{
    tmp = in.next();
   }
  }
- 
+
+ public class rendezo(String[][] s_tomb){
+  //Ujrahasznositott feladat megoldas: I/3/7
+  System.out.println("Parancssori parameterek (szavak): ");
+  for (int i = 0; i < s_tomb.length(); i++){
+   a=0;
+   for (int j = 0; j < s_tomb.length(); j++){
+    if (args[i].compareToIgnoreCase(args[j]) > 0)
+     a++;
+   }
+   if (t[a] == null)
+    t[a] = args[i];
+   else
+    t[(a+1)] = args[i];
+  }
+  for (int i = 0; i < args.length; i++)
+   System.out.println(t[i]); 
+ }
+
+
  public static void main(String[] args){
   String [][] s_tomb = new String[10][2];
   beolvas(s_tomb);
