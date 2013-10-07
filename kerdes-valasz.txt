@@ -1,15 +1,21 @@
 I/7 Miert nem ugrik ki a while ciklusbol? & es && miatt esetleg a hasNext() helytelen hasznalata az oka?
+*javitott kod a tmp-ben
 
 II/2 Mi az a regularis kifejezes? Altalnos definicio es a JAVA nyelv ertelmezeseben, peldakkal.
+*most epp fodítva van a feladatban az a) es b) illetve a megoldasok
+*Formalis nyelvek elmelete ad errol szamot
 
 Mi a tomb i-edik elemenek cimet megado keplet?
+*?
 
 II/3 Dinamikus tomb keplete altalanos alakban illetve String tipussal szemleltetve?
+*?
 
 Hogyan kepezunk referencia tombot es hogyan toltjuk fel? Tipuskonverziok.
+*?
 
-Van 'const' tipus fuggvenyeknel, hogy csak az olvasas legyen lehetseges? A lathatosag az osztaly eseteben is referencia szerint tortenik?
-
+Van 'const' tipus fuggvenyeknel, hogy csak az olvasas legyen lehetseges? A parameteratadas az osztaly eseteben is referencia szerint tortenik?
+*Ezt at kell fogalmazni, de folyik a fuggveny parmater atadasi szabalybol.
 
 Tennivalo:
 Konyv - kovetkezo gyakorlatra behozni.
