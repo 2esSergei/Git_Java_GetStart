@@ -1,8 +1,8 @@
 /*
 2. Ird ki a parancssori parametereket egy sorban ugy,
 hogy a parameterekben az egymas utani 'a' betuket egyetlen 'a' beture csereled.
-a) regularis kifejezes hasznalataval
-b) regkif nelkul
+a) regularis kifejezes nelkul
+b) regularis kifejezes hasznalataval
 */
 
 import java.util.Scanner;
