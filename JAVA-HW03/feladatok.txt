@@ -1,0 +1,31 @@
+1. Keszits ketdimenzios, Integer tipusu elemeket tartalmazo matrixot
+   leiro osztalyt. Reprezentaciokent egydimenzios Integer tombot hasznalj.
+   
+   Nehezebb verzio: a dimenziok szama legyen tetszoleges,
+   a konstruktorban megadhato.
+
+2. Keszits alapertelmezett konstruktort a matrixhoz.
+   Ez minden elemet nullaval toltson fel.
+
+3. Keszits egy egesz szamot parameterkent kapo konstruktort a matrixhoz.
+   Ez minden elemet az adott egesszel toltson fel.
+
+   Nehezebb verzio: a konstruktor egy fuggvenyt kapjon parameterkent,
+   ami ket egesz szamot kap parameterkent (i,j), es megadja,
+   hogy milyen erteke legyen az adott elemnek.
+   Mivel fuggvenyt kozvetlenul nem lehet atadni Javaban,
+   ehhez egy kulon osztalyt is kell kesziteni.
+
+4. Keszits olyan konstruktort, amely egy Scanner-t kap parameterkent,
+   es ebbol olvassa ki a matrixot. A kiolvasas elejen megkapjuk a
+   matrix dimenzioit, majd ezt a megfelelo darabszamu parameter koveti.
+
+5. Keszits getElem es setElem muveleteket a matrixhoz,
+   amelyekkel lekerdezheto, illetve beallithato a matrix megfelelo eleme.
+  
+6. Keszits egyenlosegvizsgalo muveletet a matrixhoz.
+
+7. Keszits kiiro muveletet a matrixhoz.
+
+8. Keszits rendezest a matrixhoz (Comparable osztaly compareTo metodusa).
+

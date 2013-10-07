@@ -1,0 +1,17 @@
+I/7 Miert nem ugrik ki a while ciklusbol? & es && miatt esetleg a hasNext() helytelen hasznalata az oka?
+
+II/2 Mi az a regularis kifejezes? Altalnos definicio es a JAVA nyelv ertelmezeseben, peldakkal.
+
+Mi a tomb i-edik elemenek cimet megado keplet?
+
+II/3 Dinamikus tomb keplete altalanos alakban illetve String tipussal szemleltetve?
+
+Hogyan kepezunk referencia tombot es hogyan toltjuk fel? Tipuskonverziok.
+
+Van 'const' tipus fuggvenyeknel, hogy csak az olvasas legyen lehetseges? A lathatosag az osztaly eseteben is referencia szerint tortenik?
+
+
+Tennivalo:
+Konyv - kovetkezo gyakorlatra behozni.
+Kikeresni a tombok fejezetbol a memoriacimezeshez tartozo valaszokat.
+OOP-gyakrolatom implementalasa JAVA-ban
