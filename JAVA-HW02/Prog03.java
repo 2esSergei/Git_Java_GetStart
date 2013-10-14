@@ -24,33 +24,44 @@ public class Prog03{
   }
  }
 
- public class rendezo(String[][] s_tomb){
+ static void rendezo(String[][] s_tomb){
   //Ujrahasznositott feladat megoldas: I/3/7
-  System.out.println("Parancssori parameterek (szavak): ");
-  for (int i = 0; i < s_tomb.length(); i++){
-   a=0;
-   for (int j = 0; j < s_tomb.length(); j++){
-    if (args[i].compareToIgnoreCase(args[j]) > 0)
+  String tmp1, tmp2; //a nem tul elegans megoldas...
+  String[][] t = new String[10][2];
+  for (int i = 0; i < s_tomb.length; i++){
+   int a=0;
+   tmp1 = "" + s_tomb[i][0];
+   for (int j = 0; j < s_tomb.length; j++){
+    tmp2 = "" + s_tomb[j][0];    
+//    if (tmp1.compareTo(tmp2) > 0)
+    if (("" + s_tomb[i][0]).compareTo("" + s_tomb[j][0]) > 0)
      a++;
    }
-   if (t[a] == null)
-    t[a] = args[i];
-   else
-    t[(a+1)] = args[i];
+   if (t[a][0] == null){
+    t[a][0] = s_tomb[i][0];
+    t[a][1] = s_tomb[i][1];
+   }
+   else{
+    t[(a+1)][0] = s_tomb[i][0];
+    t[(a+1)][1] = s_tomb[i][1];
+   }
   }
-  for (int i = 0; i < args.length; i++)
-   System.out.println(t[i]); 
+  System.out.println("Sorrendben a nevek: ");
+  for (int i = 0; i < s_tomb.length; i++)
+   System.out.println(t[i][0] + " " + t[i][1]); 
  }
 
 
  public static void main(String[] args){
   String [][] s_tomb = new String[10][2];
+  System.out.println("Teljes nevek csaladnev szerinti ABC-sorba rendezese:\nKerem irja be a neveket soronkent(max 10 nev es 'exit'-tel befejezheto)");
   beolvas(s_tomb);
-  System.out.println("Kiirva: " + s_tomb[1][0] + " " + s_tomb[1][1]);
+  rendezo(s_tomb);
  }
 }
 
-/* Kell: dinamikus tombok, had ne kelljen elore megmondani mennyit akarok.
+/* A gyakorlati peldakodok 'F3.java' nevu fajl-jaban megtalalhato a szepen kidolgozott megoldas.
+ * Kell: dinamikus tombok, had ne kelljen elore megmondani mennyit akarok.
  * HAJAJ... lathatosagi problemak, a fuggveny mar elve a tomb referenciajat kapja meg:
  * ezzel nagyon ovatosan kell banni (elsosorban az OOP eszkozoknel)
  * peldaprogram
